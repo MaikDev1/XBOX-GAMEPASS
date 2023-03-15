@@ -174,8 +174,9 @@ margin-top: 0px;
 }
 
 #precos ul li {
+  border: solid 1px white;
   list-style: none;
-	background-color: #006414;
+	background-color: #003400;
 	padding: 10px;
 	margin: 10px;
 	text-align: center;
