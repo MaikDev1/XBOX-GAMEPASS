@@ -3,6 +3,10 @@ body {
   background: linear-gradient(to right, #000000, #003400 );
 }
 
+a{
+  text-decoration: none;
+}
+
 .xbox{
 max-width: 1200px;
 justify-content: space-between;
@@ -164,4 +168,50 @@ margin-top: 5rem;
 }
 
 
+#precos ul {
+padding: 0px;
+margin-top: 0px;
+}
+
+#precos ul li {
+  list-style: none;
+	background-color: #006414;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#precos ul li h3 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+#precos ul li p {
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	color:white;
+}
+
+#precos{
+  color:white;
+}
+
+.planos-geral{
+  display: flex;
+}
+
+.planos{
+display: grid;
+text-align: center;
+align-items: center;
+margin-top: 5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .planos-geral {
+    width: 100%;
+    display: block;
+  }
+}
 
