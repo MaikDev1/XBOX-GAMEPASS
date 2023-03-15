@@ -191,7 +191,7 @@ margin-top: 0px;
 
 #precos ul li p {
 	margin-bottom: 20px;
-	font-size: 1.2em;
+	font-size: 1.0em;
 	color:white;
 }
 
@@ -218,9 +218,29 @@ margin-top: 5rem;
 }
 
 .inscreva{
+line-height: 2.0;
   font-weight: bolder;
   color: black;
   padding: 10px;
-  background-color: #006414;
+  background-color: #009929;
+}
+
+.ea{
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+p a{
+  text-decoration:underline;
+  font-weight: bolder;
+  color: white;
+}
+
+strong{
+  font-size: 1.3rem;
+  font-weight: bolder;
 }
 
