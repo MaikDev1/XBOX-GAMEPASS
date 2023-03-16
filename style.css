@@ -174,9 +174,8 @@ margin-top: 0px;
 }
 
 #precos ul li {
-  border: solid 1px white;
   list-style: none;
-	background-color: #003400;
+	background-color:  #107c10;
 	padding: 10px;
 	margin: 10px;
 	text-align: center;
@@ -191,7 +190,7 @@ margin-top: 0px;
 
 #precos ul li p {
 	margin-bottom: 20px;
-	font-size: 1.0em;
+	font-size: 1.2em;
 	color:white;
 }
 
@@ -199,12 +198,20 @@ margin-top: 0px;
   color:white;
 }
 
+.planos h1{
+  font-size: 3rem;
+font-weight: bolder;
+}
+
+.planos p{
+  font-size: 1.2rem;
+}
+
 .planos-geral{
   display: flex;
 }
 
 .planos{
-display: grid;
 text-align: center;
 align-items: center;
 margin-top: 5rem;
@@ -222,7 +229,7 @@ line-height: 2.0;
   font-weight: bolder;
   color: black;
   padding: 10px;
-  background-color: #009929;
+  background-color: #9bf00b;
 }
 
 .ea{
